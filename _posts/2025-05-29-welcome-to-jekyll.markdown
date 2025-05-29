@@ -1,29 +1,48 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "歡迎來到 Drago Blog！"
 date:   2025-05-29 12:36:29 +0800
-categories: jekyll update
+categories: blog 開始
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+# 歡迎來到我的部落格！
 
-`YEAR-MONTH-DAY-title.MARKUP`
+這是我的第一篇部落格文章，很高興能在這裡與大家分享我的學習旅程和想法。
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## 為什麼建立這個部落格？
 
-Jekyll also offers powerful support for code snippets:
+建立這個部落格的初衷是：
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+- 📝 **記錄學習過程**：將學習到的知識整理成文章，加深理解
+- 🤝 **分享經驗**：希望我的經驗能幫助到其他人
+- 💭 **思考整理**：透過寫作來整理思緒，提升思考能力
+- 🌱 **持續成長**：透過分享來督促自己持續學習
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## 這個部落格使用什麼技術？
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+這個部落格使用以下技術建立：
+
+- **Jekyll**：靜態網站生成器
+- **GitHub Pages**：免費的網站託管服務
+- **Markdown**：簡潔的文章撰寫格式
+- **Minima 主題**：簡潔美觀的設計
+
+## 未來計劃
+
+在這個部落格中，我計劃分享：
+
+- 💻 程式開發經驗
+- 🛠️ 工具使用心得
+- 📚 學習筆記
+- 🎯 專案實作過程
+- 🌟 生活感悟
+
+## 結語
+
+感謝您來到這裡！如果您對任何內容有疑問或建議，歡迎透過 [coachsunshinelee@gmail.com](mailto:coachsunshinelee@gmail.com) 與我聯絡。
+
+讓我們一起在學習的路上成長吧！🚀
+
+---
+
+*這篇文章使用 Jekyll 撰寫，您可以在 `_posts` 目錄中找到原始檔案。*
