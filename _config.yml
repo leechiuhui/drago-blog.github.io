@@ -28,12 +28,20 @@ url: "https://leechiuhui.github.io" # the base hostname & protocol for your site
 twitter_username: 
 github_username: leechiuhui
 
+# 導航選單配置
+header_pages:
+  - about.markdown
+  - categories.md
+  - tags.md
+  - search.md
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
