@@ -23,8 +23,8 @@ email: coachsunshinelee@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   歡迎來到 Drago Blog！這裡分享關於技術、生活和學習的點點滴滴。
   一個用 Jekyll 建立的個人部落格，記錄成長路上的每一步。
-baseurl: "/drago-blog.github.io" # the subpath of your site, e.g. /blog
-url: "https://leechiuhui.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blog.drago.tw" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username: leechiuhui
 
@@ -41,7 +41,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -71,10 +70,6 @@ collections:
   tags:
     output: true
     permalink: /tags/:name/
-
-# 分頁設定
-paginate: 5
-paginate_path: "/page:num/"
 
 # 預設設定
 defaults:
