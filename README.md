@@ -39,7 +39,7 @@ bundle --version
 ### 1. 複製專案
 
 ```bash
-git clone https://github.com/your-username/drago-blog.github.io.git
+git clone https://github.com/leechiuhui/drago-blog.github.io.git
 cd drago-blog.github.io
 ```
 
@@ -56,7 +56,7 @@ bundle exec jekyll serve
 ```
 
 成功啟動後，您可以在瀏覽器中訪問：
-- **本地網址**: http://localhost:4000
+- **本地網址**: http://localhost:4000/drago-blog.github.io/
 
 ## 💻 使用方法
 
@@ -90,6 +90,23 @@ bundle exec jekyll serve --port 4001
 
 # 方法 3: 強制終止所有 Jekyll 程序
 pkill -f jekyll
+```
+
+### baseurl 配置說明
+
+本專案針對不同環境有不同的 baseurl 設定：
+
+- **本地開發**: baseurl 設為 `/drago-blog.github.io`
+- **GitHub Pages**: 自動使用相同的 baseurl
+
+**重要**: 修改 `_config.yml` 後需要重新啟動開發伺服器：
+
+```bash
+# 停止伺服器
+pkill -f jekyll
+
+# 重新啟動
+bundle exec jekyll serve
 ```
 
 ### 建置靜態網站
@@ -145,7 +162,28 @@ drago-blog.github.io/
 1. 將專案推送到 GitHub
 2. 在 GitHub 倉庫設定中啟用 GitHub Pages
 3. 選擇 `main` 分支作為來源
-4. 您的網站將自動部署到 `https://your-username.github.io/drago-blog.github.io`
+4. 您的網站將自動部署到 `https://leechiuhui.github.io/drago-blog.github.io/`
+
+**部署注意事項**：
+- GitHub Pages 部署通常需要 1-5 分鐘
+- 確保 `_config.yml` 中的 `baseurl` 設定為 `/drago-blog.github.io`
+- 確保 `url` 設定為 `https://leechiuhui.github.io`
+
+### 網址說明
+
+- **本地開發**: http://localhost:4000/drago-blog.github.io/
+- **GitHub Pages**: https://leechiuhui.github.io/drago-blog.github.io/
+
+### 簡化網址選項
+
+如果您希望使用更簡潔的網址 `https://leechiuhui.github.io/`：
+
+1. 將倉庫重新命名為 `leechiuhui.github.io`
+2. 修改 `_config.yml` 中的 `baseurl` 為空字串：
+   ```yaml
+   baseurl: ""
+   ```
+3. 本地開發網址將變為 `http://localhost:4000/`
 
 ### 手動部署
 
@@ -201,7 +239,7 @@ bundle exec jekyll build
 
 如有任何問題，請透過以下方式聯絡：
 
-- 開啟 [Issue](https://github.com/your-username/drago-blog.github.io/issues)
+- 開啟 [Issue](https://github.com/leechiuhui/drago-blog.github.io/issues)
 - 電子郵件：coachsunshinelee@gmail.com
 
 ---
