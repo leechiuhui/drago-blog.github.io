@@ -1,9 +1,14 @@
 ---
 layout: post
 title: "Drago Blog"
-date: 2025-5-29 15:00:00 +0800
-categories: [生活, 心得]
-tags: [生活, 體悟, 部落格]
+date: 2024-12-19 15:00:00 +0800
+categories: 
+  - 生活
+  - 心得
+tags: 
+  - 生活
+  - 體悟
+  - 部落格
 ---
 
 # 我發現 
